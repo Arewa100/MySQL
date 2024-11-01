@@ -1,4 +1,4 @@
-USE hadobo;
+-- USE hadobo;
 CREATE TABLE STUDENT (
 	studentId			Integer				NOT NULL,
 	studentName			Char(30)			NOT NULL,
@@ -11,12 +11,10 @@ CREATE TABLE COURSE (
 	title				Char(30)			NOT NULL,
 	facilitator			Char(30)			NOT NULL,
 	noOfStudent			Integer				NOT NULL
-
 );
 
 CREATE TABLE GRADE (
 	courseId					Integer				NOT NULL,
 	studentId					Integer				NOT NULL,
 	score						Integer				NOT NULL
-
 );
